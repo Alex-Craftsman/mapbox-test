@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Mapbox Test</string>
+    <string name="access_token">pk.eyJ1Ijoicm9kZXJpY2giLCJhIjoiY2pwYUxpcyJ9.VDJp7hcV2u1gXS-0PB1zew</string>
+
+    <string name="mapbox_style_default">Default Custom Map</string>
+    <string name="mapbox_style_dark">Dark</string>
+    <string name="mapbox_style_outdoors">Outdoors</string>
+    <string name="mapbox_style_light">Light</string>
+    <string name="mapbox_style_streets">Streets</string>
+    <string name="mapbox_style_satellite">Satellite</string>
+    <string name="mapbox_style_satellite_streets">Satellite Streets</string>
+    <string name="mapbox_marker_details">Details</string>
+
+    <string name="text_new_region_name">New Region Name</string>
+    <string name="text_regions_list">Regions List</string>
+    <string name="text_offline_use">Offline Use</string>
+    <string name="text_no_regions_yet">You have no regions yet.</string>
+
+</resources>

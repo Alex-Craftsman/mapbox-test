@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_default"
+        android:orderInCategory="80"
+        android:visible="true"
+        android:title="@string/mapbox_style_default"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_dark"
+        android:orderInCategory="90"
+        android:title="@string/mapbox_style_dark"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_outdoors"
+        android:orderInCategory="100"
+        android:title="@string/mapbox_style_outdoors"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_light"
+        android:orderInCategory="110"
+        android:title="@string/mapbox_style_light"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_mapbox_streets"
+        android:orderInCategory="120"
+        android:title="@string/mapbox_style_streets"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_satellite"
+        android:orderInCategory="130"
+        android:title="@string/mapbox_style_satellite"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_satellite_streets"
+        android:orderInCategory="130"
+        android:title="@string/mapbox_style_satellite_streets"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_save_offline"
+        android:orderInCategory="140"
+        android:icon="@drawable/ic_file_download_white"
+        android:title="@string/text_offline_use"
+        app:showAsAction="ifRoom" />
+</menu>

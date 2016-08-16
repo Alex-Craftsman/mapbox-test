@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    tools:context="com.web_temple.mapbox.mapboxtest.MainActivity">
+
+    <!-- Set the starting camera position and map style using xml-->
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:center_latitude="3.146119"
+        mapbox:center_longitude="101.727103"
+        mapbox:style_url="mapbox://styles/mapbox/outdoors-v9"
+        mapbox:access_token="@string/access_token"
+        mapbox:zoom="16"
+        mapbox:zoom_min="10" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.Material.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:visibility="gone" />
+
+</RelativeLayout>
